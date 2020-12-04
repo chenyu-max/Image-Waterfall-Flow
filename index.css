@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    list-style: none;
+    background-color: #eee;
+}
+
+.wrapper li {
+    float: left;
+    width: 25%;
+}
+
+.wrapper li::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper .col div {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.wrapper .col div img {
+    width: 100%;
+}
